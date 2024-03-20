@@ -1,8 +1,8 @@
 {
   "name": "docker-compose",
-  "packageUri": "package://kvist-no.github.io/jar/docker-compose@0.1.0",
+  "packageUri": "package://kvist-no.github.io/jar/packages/docker-compose@0.1.0",
   "version": "0.1.0",
-  "packageZipUrl": "https://kvist-no.github.io/jar/docker-compose/docker-compose@0.1.0.zip",
+  "packageZipUrl": "https://kvist-no.github.io/jar/docker-compose/.out/docker-compose@0.1.0.zip",
   "packageZipChecksums": {
     "sha256": "8f24746db7601c35d675e1d355721889b97a220c48a6c2b86382f1e2dd593332"
   },

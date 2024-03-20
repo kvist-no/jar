@@ -3,6 +3,6 @@ amends "pkl:Project"
 package {
   name = "docker-compose"
   version = "0.1.0"
-  baseUri = "package://kvist-no.github.io/jar/\(name)"
+  baseUri = "package://kvist-no.github.io/jar/packages/\(name)"
   packageZipUrl = "https://kvist-no.github.io/jar/\(name)/.out/\(name)@\(version).zip"
 }
