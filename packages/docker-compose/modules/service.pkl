@@ -17,11 +17,11 @@ class Service {
 
   /// Optional list of ports to expose.
   /// Per now only supports the short (string) syntax. See [the official documentation](https://docs.docker.com/compose/compose-file/compose-file-v3/#ports) for more information.
-  ports: List<String>?
+  ports: Listing<String>?
 
   /// Optional list of volumes to mount.
   /// Per now only supports the short (string) syntax. See [the official documentation](https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes) for more information.
-  volumes: List<String>?
+  volumes: Listing<String>?
 }
 
 
