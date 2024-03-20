@@ -10,7 +10,7 @@ to benefit from them as well.
 ```pkl
 dependencies {
   ["docker-compose"] {
-    uri = "package://raw.githubusercontent.com/kvist-no/jar/main/packages/docker-compose/build/docker-compose@0.1.2"
+    uri = "package://raw.githubusercontent.com/kvist-no/jar/main/packages/docker-compose/build/docker-compose@<VERSION>"
   }
 }
 ```
