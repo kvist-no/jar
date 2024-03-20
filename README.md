@@ -5,6 +5,8 @@ to benefit from them as well.
 
 ## Modules
 
+List of deps
+
 ```pkl
 dependencies {
   ["docker-compose"] {
