@@ -1,0 +1,17 @@
+import "modules/service.pkl"
+import "modules/volume.pkl"
+import "modules/network.pkl"
+
+/// Which version of the docker compose file to use. For now only `3.8` is supported.
+/// [See docs](https://docs.docker.com/compose/compose-file/compose-file-v3/#compose-and-docker-compatibility-matrix/).
+version: "3.8" = "3.8"
+
+services: Mapping<String, service.Service>
+
+volumes: Mapping<String, volume.Volume>?
+
+networks: Mapping<String, network.Network>?
+
+output {
+  renderer = new YamlRenderer {}
+}

@@ -1,0 +1,6 @@
+/// See [network configuration reference](https://docs.docker.com/compose/compose-file/compose-file-v3/#network-configuration-reference) for more information.
+class Network {
+  /// Which driver should be used. Usually `bridge` on a single host and `overlay` in a Swarm.
+  /// Default driver depends on how the Docker Engine is configured, as described above.
+  driver: ("bridge"|"overlay"|String)?
+}

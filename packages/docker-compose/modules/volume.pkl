@@ -1,0 +1,4 @@
+/// This section allows you to create named volumes that can be reused across multiple services.
+/// See [volume configuration reference](https://docs.docker.com/compose/compose-file/#volumes) for more information.
+class Volume {
+}
