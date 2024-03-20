@@ -13,10 +13,5 @@ volumes: Mapping<String, volume.Volume>?
 networks: Mapping<String, network.Network>?
 
 output {
-  files {
-    ["docker-compose.yml"] {
-      renderer = new YamlRenderer {}
-      value = this
-    }
-  }
+  renderer = new YamlRenderer {}
 }
